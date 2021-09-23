@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Anton Materanski](https://up.htmlacademy.ru/javascript/24/user/1810811).
-* Наставник: `Неизвестно`.
+* Наставник: [Magomed Kandaev](https://htmlacademy.ru/profile/magomedkandaev).
 
 ---
 
