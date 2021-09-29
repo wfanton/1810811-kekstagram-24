@@ -1,19 +1,15 @@
-function randomNumber(min, max) {
+function getRandomNumber(min, max) {
   const random = min + Math.random() * (max - min);
   return Math.round(random);
 }
 
-randomNumber(3, 15);
+getRandomNumber(3, 15);
 
 
-function commentCheck (string, lenght) {
-  // eslint-disable-next-line no-undef
-  if (commentLenght <= lenght) {
+function checkCommentLength (string, lenght) {
+  if (string.length <= lenght) {
     return true;
-  } else {
-    return false;
   }
 }
 
-// eslint-disable-next-line no-undef
-commentCheck (string, lenght);
+checkCommentLength (5, 120);
