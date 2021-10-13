@@ -6,10 +6,8 @@ function getRandomNumber(min, max) {
 getRandomNumber(3, 15);
 
 
-function checkCommentLength (string, lenght) {
-  if (string.lenght <= lenght) {
-    return true;
-  }
+function checkStringLength (string, length) {
+  return string.length <= length;
 }
 
-checkCommentLength (5, 120);
+checkStringLength (5, 120);
